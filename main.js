@@ -50,7 +50,7 @@ function getID(id) {
         requestAnimationFrame(loop)
     }
         
-    links = {normal: "https://discordapp.com/channels/@me/621721224627748874/634340832169820160"}
+    links = {normal: "https://media.discordapp.net/attachments/621721224627748874/634340827824652309/image0.jpg"}
     qt = new Person("qt")
     qt.change("normal")
     qt.addAnimation("bob", 2)
