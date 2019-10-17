@@ -41,7 +41,7 @@ function getID(id) {
         this.show = function(id) {
             removeEffect(id, "hidden")
         }
-        this.walk = function()
+        this.walk = function() {}
         
     }
 
@@ -50,7 +50,7 @@ function getID(id) {
         requestAnimationFrame(loop)
     }
         
-    links = {normal: "https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"}
+    links = {normal: "https://discordapp.com/channels/@me/621721224627748874/634340832169820160"}
     qt = new Person("qt")
     qt.change("normal")
     qt.addAnimation("bob", 2)
