@@ -1,16 +1,62 @@
 
 <title>Exten</title>
 
-<img id="qt" src="">
+<div id="qt">
+    <img src="">
+</div>
 
 <script src="main.js"></script>
 
 <style>
 
-body {
-margin: 0;
-padding: 0;
-background-color: black;
-}
+    img {
+        position: relative;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    @keyframes bob {
+        0% {
+            transform:rotate(0deg);
+        }
+        25% {
+            transform:rotate(320deg);
+        }
+        50% {
+            transform:rotate(0deg);
+        }
+        75% {
+            transform:rotate(40deg);
+        }
+        100% {
+            transform:rotate(0deg);
+        }
+    }
+
+    @keyframes jump {
+        0% {
+            bottom: 0px;
+        }
+        25% {
+            bottom: -50px;
+        }
+        50% {
+            bottom: 0px;
+        }
+        75% {
+            bottom: -50px;
+        }
+        100% {
+            bottom: 0px;
+        }
+    }
+    
+    body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    }
 
 </style>
